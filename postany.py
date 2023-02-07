@@ -24,3 +24,18 @@ print(r.text)
 #curl -X POST -d "{\"bot_id\": \"81110e5203f6018341de37d901\", \"text\": \"Hello world\"}" -H "Content-Type: application/json" https://api.groupme.com/v3/bots/post
 
 #curl -X POST "https://api.groupme.com/v3/bots/post?bot_id=81110e5203f6018341de37d901&text=Hello+world"
+
+#curl -X POST -d "{
+  \"attachments\": [],
+  \"avatar_url\": "https://i.groupme.com/123456789",
+  \"created_at\": 1302623328,
+  \"group_id\": "1234567890",
+  \"id\": \"1234567890\",
+  \"name\": \"John\",
+  \"sender_id\": \"12345\",
+  \"sender_type\": \"user\",
+  \"source_guid\": \"GUID\",
+  \"system\": false,
+  \"text\": \"Hello world ☃☃\",
+  \"user_id\": \"1234567890\"
+}" -H "Content-Type: application/json" lake0.pythonanywhere.com/foo
